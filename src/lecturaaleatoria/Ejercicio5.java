@@ -8,7 +8,6 @@ public class Ejercicio5 {
 	public static void main(String[] args) {
 
 		try {
-			// create a new RandomAccessFile with filename test
 			RandomAccessFile rafLeer = new RandomAccessFile("src/lecturaaleatoria/leer.txt", "r");
 			RandomAccessFile rafEscribir = new RandomAccessFile("src/lecturaaleatoria/escribir.txt", "rw");
 
